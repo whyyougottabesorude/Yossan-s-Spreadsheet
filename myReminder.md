@@ -1,0 +1,1 @@
+Use this terminal command for compile : g++ -std=c++17 -g main.cpp -o main
