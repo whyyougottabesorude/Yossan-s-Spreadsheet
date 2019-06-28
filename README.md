@@ -1,5 +1,5 @@
 # Yossan-s-Spreadsheet
-This is final project for Programming Algortihm course. Finnaly i have finished this code after spend 24 hours of code in 2 days.
+This is final project for Programming Algortihm course. Finnaly i have finished this code after spend 10 hours of code.
 This Mini Spreadsheet have functions :
 1. Assign a number to a cell with command SET(CELL,VALUE); for example SET(A1,5) it will assign 5 to A1 cell
 2. Delete a number from a cell with command DEL(CELL); For example DEL(A1) then it will delete value of A1 cell
