@@ -117,9 +117,6 @@ void Spreadsheet::loadSheet() {
 
 void Spreadsheet::functions() {
     getCommand(str);
-    cout << command << endl;
-    cout << param1 << endl;
-    cout << param2 << endl;
     int dim1, dim2, value;
 
     if (command == "SET") {
