@@ -60,16 +60,16 @@ void Spreadsheet::viewSheet() {
         if (i == 0) {
             cout << "\t";
             for (int k = 0; k < 10; k++) {
-                cout << col[k] << "  ";
+                cout << col[k] << "\t";
             }
             cout << endl;
-            cout << "\t-----------------------------" << endl;
+            cout << "\t-------------------------------------------------------------------------" << endl;
         }
         for (int j = 0; j < 10; j++) {
             if(j == 0) {
                 cout << i + 1 << "\t";
             }
-            cout << arr[i][j] << "  ";
+            cout << arr[i][j] << "\t";
         }
         cout << endl;
     }
@@ -330,16 +330,16 @@ void Spreadsheet::sortFunc(int area, int method, int r, int c) {
         if (i == 0) {
             cout << "\t";
             for (int k = 0; k < 10; k++) {
-                cout << col[k] << "  ";
+                cout << col[k] << "\t";
             }
             cout << endl;
-            cout << "\t-----------------------------" << endl;
+            cout << "\t-------------------------------------------------------------------------" << endl;
         }
         for (int j = 0; j < 10; j++) {
             if(j == 0) {
                 cout << i + 1 << "\t";
             }
-            cout << sortArr[i][j] << "  ";
+            cout << sortArr[i][j] << "\t";
         }
         cout << endl;
     }
