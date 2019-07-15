@@ -1,4 +1,4 @@
-# Yossan-s-Spreadsheet
+# Yossan's Spreadsheet
 This is final project for Programming Algortihm course. Finnaly i have finished this code after spend 10 hours of code.
 
 # Compile
