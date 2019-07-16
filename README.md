@@ -8,7 +8,7 @@ g++ -std=c++17 -g main.cpp -o main
 
 # Command
 The command must be capital letter
-### Assign a number to a cell
+### Assign a value to a cell
 ```sh
 SET(CELL,VALUE)
 ```
@@ -18,7 +18,7 @@ SET(A1,5)
 ```
 It will assign 5 to A1 cell
 
-### Delete a number from a cell
+### Delete a value from a cell
 ```sh
 DEL(CELL)
 ```
@@ -67,7 +67,7 @@ MEAN(E)
 ```
 then it will give you the MEAN result in row E
 
-### Look for minimum number in a row or column
+### Look for minimum value in a row or column
 ```sh
 MIN(row/column)
 ```
@@ -76,7 +76,7 @@ For example
 MIN(1)
 ```
 then it will give you the minimum number in column 1
-### Look for maximum number in a row or column
+### Look for maximum value in a row or column
 ```sh
 MAX(row/column)
 ```
