@@ -46,6 +46,7 @@ int Spreadsheet::menu() {
     } else if (choosenMenu == 3) {
         loadSheet();
     } else if (choosenMenu == 4) {
+        cout << "Command must be capital letter!" << endl;
         cout << "Type your command : "; cin >> str;
         functions();
     } else if (choosenMenu == 5) {
@@ -224,16 +225,14 @@ void Spreadsheet::deleteFunc(int x, int y) {
 void Spreadsheet::sumFunc(int x1, int y1, int x2, int y2) {
     int sum = 0;
 
-    for (int i = x1; i <= x2; i++)
-    {
-        for (int j = y1; j <= y2; j++)
-        {
-            cout << arr[i][j] << endl;
+    for (int i = x1; i <= x2; i++) {
+        for (int j = y1; j <= y2; j++) {
+            cout << arr[i][j] << " ";
             sum += arr[i][j];
         }
         
     }
-    cout << "The SUM is = " << sum << endl;
+    cout << "\nThe SUM is = " << sum << endl;
 }
 
 void Spreadsheet::searchFunc(int value) {
