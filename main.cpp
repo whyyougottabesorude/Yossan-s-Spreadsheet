@@ -50,6 +50,8 @@ int Spreadsheet::menu() {
         functions();
     } else if (choosenMenu == 5) {
         return 0;
+    } else {
+        cout << "You enter the wrong menu!" << endl;
     }
     system( "read -n 1 -s -p \"\nPress any key to continue...\"" );
     goto awal;
@@ -206,6 +208,8 @@ void Spreadsheet::functions() {
             c = 0;
         }
         max(area, r, c);
+    } else {
+        cout << "You enter the wrong command" << endl;
     }
 }
 
